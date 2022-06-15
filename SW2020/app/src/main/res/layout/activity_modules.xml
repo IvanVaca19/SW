@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Modules">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/tool"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tool">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/rvcard"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/tool">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                android:id="@+id/card_view"
+                app:cardBackgroundColor="@color/background_color"
+                android:layout_margin="@dimen/margin_large"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/licard"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="@dimen/title"
+                        android:text="@string/pendiente"
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:drawablePadding="5dp"
+                        android:textSize="@dimen/text_general"
+                        android:text="@string/depaPropio"
+                        app:drawableStartCompat="@drawable/ic_advertencia"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:drawablePadding="5dp"
+                        android:padding="10dp"
+                        android:textSize="@dimen/text_general"
+                        android:text="@string/depaCompetencia"
+                        app:drawableStartCompat="@drawable/ic_advertencia"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:drawablePadding="5dp"
+                        android:padding="10dp"
+                        android:textSize="@dimen/text_general"
+                        android:text="@string/depaexhibi"
+                        app:drawableLeftCompat="@drawable/ic_advertencia"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:drawablePadding="5dp"
+                        android:padding="10dp"
+                        android:textSize="@dimen/text_general"
+                        app:drawableStartCompat="@drawable/ic_advertencia"
+                        android:text="@string/evidencias"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="@dimen/title"
+                        android:text="@string/depa"
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="@dimen/text_general"
+                        android:text="@string/incomple" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btnCAbarrotes"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_style"
+                            android:drawableStart="@drawable/ic_competidor"
+                            android:padding="10dp"
+                            android:text="@string/compeAbarro"
+                            android:textAlignment="center"
+                            style="?android:attr/buttonBarStyle"
+                            android:textSize="@dimen/title_text"
+                            tools:ignore="RtlCompat" />
+                        <Button
+                            android:id="@+id/btnPRAbarrotes"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:drawableStart="@drawable/ic_abarrotes"
+                            android:background="@drawable/btn_style"
+                            android:padding="10dp"
+                            android:text="@string/propiosAbarro"
+                            android:textAlignment="center"
+                            style="?android:attr/buttonBarStyle"
+                            android:textSize="@dimen/title_text"
+                            tools:ignore="RtlCompat" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btnPRfv"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/profru"
+                            android:textSize="@dimen/title_text"
+                            android:layout_margin="10dp"
+                            android:drawableStart="@drawable/ic_frutas"
+                            android:padding="10dp"
+                            android:background="@drawable/btn_style"
+                            android:layout_weight="1"
+                            style="?android:attr/buttonBarStyle"
+                            android:textAlignment="center"
+                            tools:ignore="RtlCompat" />
+
+                        <Button
+                            android:id="@+id/btnDepExh"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/depaexhibi"
+                            android:layout_margin="10dp"
+                            style="?android:attr/buttonBarStyle"
+                            android:drawableStart="@drawable/ic_pedidos"
+                            android:background="@drawable/btn_style"
+                            android:textSize="@dimen/title_text"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            tools:ignore="RtlCompat" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btnEvid"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_style"
+                            android:layout_margin="10dp"
+                            android:text="@string/evidencias"
+                            style="?android:attr/buttonBarStyle"
+                            android:drawableStart="@drawable/ic_camara"
+                            android:padding="10dp"
+                            android:textSize="@dimen/title_text"
+                            tools:ignore="RtlCompat" />
+                        <Button
+                            android:id="@+id/btn_Pedi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_style"
+                            android:layout_margin="10dp"
+                            android:text="@string/pedido"
+                            style="?android:attr/buttonBarStyle"
+                            android:padding="10dp"
+                            android:drawableStart="@drawable/ic_pedido"
+                            android:textSize="@dimen/title_text"
+                            android:layout_weight="1"
+                            tools:ignore="RtlCompat" />
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/idpromotorm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="idpromotor"
+                        android:layout_margin="10dp"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:id="@+id/nomtiendam"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="tienda"
+                        android:layout_margin="10dp"
+                        tools:ignore="RtlCompat" />
+
+
+                    <TextView
+                        android:id="@+id/cadenam"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="cadena"
+                        android:layout_margin="10dp"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:id="@+id/idformatoimprm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="idformato"
+                        android:layout_margin="10dp"
+                        tools:ignore="RtlCompat" />
+
+
+                    <TextView
+                        android:id="@+id/ordenm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="orden"
+                        android:layout_margin="10dp"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:id="@+id/idplazam"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="idplaza"
+                        android:layout_margin="10dp"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:id="@+id/idcadenam"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="idcadena"
+                        android:layout_margin="10dp"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:id="@+id/idtiendam"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="idtienda"
+                        android:layout_margin="10dp"
+                        tools:ignore="RtlCompat" />
+
+
+
+                    <TextView
+                        android:id="@+id/fecharutasm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="fecharuta"
+                        android:layout_margin="10dp"
+                        tools:ignore="RtlCompat" />
+
+
+                    <TextView
+                        android:id="@+id/dtem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="DTE"
+                        android:layout_margin="10dp"
+                        tools:ignore="RtlCompat" />
+
+
+                    <TextView
+                        android:id="@+id/plazam"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="PLAZA"
+                        android:layout_margin="10dp"
+                        tools:ignore="RtlCompat" />
+
+
+
+                    <TextView
+                        android:id="@+id/promotorm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="promotor"
+                        android:layout_margin="10dp"
+                        tools:ignore="RtlCompat" />
+
+
+
+
+
+
+
+
+
+
+
+                    <TextView
+                        android:id="@+id/idpromotorm2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="idpromotor"
+                        android:layout_margin="10dp"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:id="@+id/nomtiendam2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="tienda"
+                        android:layout_margin="10dp"
+                        tools:ignore="RtlCompat" />
+
+
+                    <TextView
+                        android:id="@+id/cadenam2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="cadena"
+                        android:layout_margin="10dp"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:id="@+id/idformatoimprm2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="idformato"
+                        android:layout_margin="10dp"
+                        tools:ignore="RtlCompat" />
+
+
+                    <TextView
+                        android:id="@+id/ordenm2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="orden"
+                        android:layout_margin="10dp"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:id="@+id/idplazam2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="idplaza"
+                        android:layout_margin="10dp"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:id="@+id/idcadenam2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="idcadena"
+                        android:layout_margin="10dp"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:id="@+id/idtiendam2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="idtienda"
+                        android:layout_margin="10dp"
+                        tools:ignore="RtlCompat" />
+
+
+
+                    <TextView
+                        android:id="@+id/fecharutasm2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="fecharuta"
+                        android:layout_margin="10dp"
+                        tools:ignore="RtlCompat" />
+
+
+                    <TextView
+                        android:id="@+id/dtem2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="DTE"
+                        android:layout_margin="10dp"
+                        tools:ignore="RtlCompat" />
+
+
+                    <TextView
+                        android:id="@+id/plazam2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="PLAZA"
+                        android:layout_margin="10dp"
+                        tools:ignore="RtlCompat" />
+
+
+
+                    <TextView
+                        android:id="@+id/promotorm2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="promotor"
+                        android:layout_margin="10dp"
+                        tools:ignore="RtlCompat" />
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

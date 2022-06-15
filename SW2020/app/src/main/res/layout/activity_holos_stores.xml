@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <fragment
+                xmlns:map="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                tools:context=".Ubicacion.HolosStores" />
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_checkin"
+                android:text="@string/chekIn"
+                android:layout_margin="20dp"
+                android:background="@drawable/btn_orange"/>
+
+            <TextView
+                android:id="@+id/idpromotor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="idpromotor"
+                android:layout_margin="10dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/nomtienda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="tienda"
+                android:layout_margin="10dp"
+                tools:ignore="RtlCompat" />
+
+
+            <TextView
+                android:id="@+id/cadena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="cadena"
+                android:layout_margin="10dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/idformatoimpr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="idformato"
+                android:layout_margin="10dp"
+                tools:ignore="RtlCompat" />
+
+
+            <TextView
+                android:id="@+id/orden"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="orden"
+                android:layout_margin="10dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/idplaza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="idplaza"
+                android:layout_margin="10dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/idcadena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="idcadena"
+                android:layout_margin="10dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/idtienda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="idtienda"
+                android:layout_margin="10dp"
+                tools:ignore="RtlCompat" />
+
+
+
+
+
+            <TextView
+                android:id="@+id/fecharutas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="fecharuta"
+                android:layout_margin="10dp"/>
+
+
+            <TextView
+                android:id="@+id/dte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="DTE"
+                android:layout_margin="10dp"
+                tools:ignore="RtlCompat" />
+
+
+            <TextView
+                android:id="@+id/plaza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="PLAZA"
+                android:layout_margin="10dp"
+                tools:ignore="RtlCompat" />
+
+
+
+            <TextView
+                android:id="@+id/promotor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="promotor"
+                android:layout_margin="10dp"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,2061 @@
+<resources>
+    <string name="app_name">HOLOS</string>
+    <string name="inv_ana">Inventario Anaquel</string>
+    <string name="inv_bod">Inventario Bodega</string>
+    <string name="inv_fre">Frentes</string>
+    <string name="cant">Cantidad</string>
+    <string name="sincro">SINCRONIZAR LAS EVALUACIONES</string>
+    <string name="captura">Captura de Foto</string>
+    <string name="gs1">Holoscomm Auditores</string>
+    <string name="promotores">Holoscomm Promotores  SW</string>
+    <string name="rutas">Rutas</string>
+    <string name="guardados">Guardados</string>
+    <string name="Plaza">Plaza</string>
+    <string name="zonaplaza">plaza mexico</string>
+    <string name="Datos">Datos de Usuario</string>
+    <string name="Usuario">USUARIO</string>
+    <string name="promotor">PROMOTOR</string>
+    <string name="Rol">ROL</string>
+    <string name="labelprecio">PRECIO</string>
+    <string name="chekout">Check Out</string>
+    <string name="chekIn">Check In</string>
+    <string name="atras">Atras</string>
+    <string name="number">N° Registros</string>
+    <string name="ruta">0000</string>
+    <string name="count">0</string>
+
+    <string name="marca">Marca</string>
+    <string name="guardar">Guardar datos</string>
+    <string name="descripcion">Descripción</string>
+    <string name="producto">Producto</string>
+    <string name="ubicacion">Ubicación</string>
+    <string name="distancia">Distancia</string>
+    <string name="tienda">Tienda</string>
+    <string name="origen">Origen</string>
+    <string name="clasifi">Clasificación</string>
+    <string name="identi">Identificación</string>
+    <string name="nueidenti">Nueva identificación</string>
+    <string name="plu">PLU</string>
+    <string name="codigo">Código de Barras</string>
+    <string name="cerrar">Cerrar sesión</string>
+
+
+    <string name="placteos">PRODUCTOS LACTEOS</string>
+    <string name="prsalchi">PROPIOS SALCHICHONERIA</string>
+    <string name="prpanaderia">PROPIOS PANADERIA</string>
+    <string name="prcocina">PROPIOS COCINA</string>
+    <string name="ExhAdd">EXHIBICIONES ADICIONALES</string>
+    <string name="EvFotPr">EVIDENCIA FOTOGRAFICA PROPIA</string>
+    <string name="Comen">COMENTARIOS</string>
+    <string name="pedlacteos">PEDIDOS LACTEOS</string>
+    <string name="pedSach">PEDIDOS SALCHICHONERIA</string>
+    <string name="pedPan">PEDIDOS PANADERIA</string>
+    <string name="pedCoc">PEDIDOS COCINA</string>
+    <string name="CambiosFisicL">CAMBIOS FISICOS LACTEOS</string>
+    <string name="CambiosFisicSach">CAMBIOS FISICOS SALCHICHONERIA</string>
+    <string name="CambiosFisicPan">CAMBIOS FISICOS PANADERIA</string>
+    <string name="CambiosFisicCoc">CAMBIOS FISICOS COCINA</string>
+
+    <string name="pendiente">Pendientes</string>
+    <string name="depaPropio">Departamento propios</string>
+    <string name="depaCompetencia">Departamento competencia</string>
+    <string name="depaexhibi">Departamento exhibiciones</string>
+    <string name="evidencias">Evidencias</string>
+    <string name="depa">Departamento</string>
+    <string name="incomple">Incompletos</string>
+    <string name="compeAbarro">Competencia Abarrotes</string>
+    <string name="propiosAbarro">Propios Abarrotes</string>
+    <string name="profru">Propios frutas y verduras </string>
+    <string name="exhibiciones">Exhibiciones</string>
+    <string name="pedido">Pedidos</string>
+    <string name="pais">Pais</string>
+    <string name="competencia">Encuesta competencia</string>
+    <string name="encu_compe">Encuesta competencia</string>
+
+    <string name="Auditoria">Iniciar Auditoria</string>
+    <string name="Congelados">Congelados</string>
+
+
+    <string name="foto1">PRECIO (Obligatoria)</string>
+    <string name="foto2">PRODUCTO (Obligatoria </string>
+    <string name="foto3">IDENTIFICACION (Obligatoria)</string>
+
+    <string name="cadenasObli">(Obligatorio)</string>
+    <string name="formatoObli">(Obligatorio)</string>
+
+
+    <string name="SelectMarca">SELECCIONAR MARCA</string>
+    <string name="SelectProduct">SELECCIONAR PRODUCTO</string>
+
+    <string-array name="spinerOrigen">
+
+        <item>SELECCIONE EL ORIGEN DEL PRODUCTO</item>
+        <item>IMPORTADO</item>
+        <item>NACIONAL</item>
+        <item>SIN INFORMACION</item>
+
+
+    </string-array>
+
+
+    <string-array name="spinerPais">
+
+        <item>SELECCIONE EL DEPARTAMENTO</item>
+        <item>ABARROTES</item>
+        <item>EUA</item>
+        <item>MEXICO</item>
+        <item>ARGENTINA</item>
+        <item>CHILE</item>
+        <item>ASIA</item>
+        <item>SIN INFORMACION</item>
+
+
+    </string-array>
+
+
+    <string-array name="SpinnerMarcas">
+
+        <item>CLEMENTE JACQUES</item>
+        <item>CONTADINA</item>
+        <item>DEL MONTE</item>
+        <item>DEL MONTE FOODS</item>
+        <item>HERDEZ</item>
+        <item>LA COSTEÑA</item>
+        <item>LA GITANA</item>
+        <item>SW</item>
+        <item>DEL MONTE/ FRUIT NATURALS</item>
+
+
+    </string-array>
+
+
+    <string-array name="spinnerClementeJaques">
+        <item>COCTEL FRUTA 800 GR</item>
+        <item>DURAZNOS MITADES 820 GR</item>
+        <item>MANGO 800 GR</item>
+        <item>PIÑA EN TROZO 800 GR</item>
+        <item>PIÑA REBANADA 800 GR</item>
+
+    </string-array>
+
+
+    <string-array name="spinnerCotidiana">
+        <item>TOMATES GUISADOS 411 GR</item>
+        <item>TOMATES TROCITOS ITALIANO 411 GR</item>
+
+
+    </string-array>
+
+    <string-array name="spinnerDelmonte">
+        <item>ELOTE LATA 400 GR</item>
+        <item>ENSALADA VEGETALES 400 GR</item>
+        <item>ENSALADA VERDURAS 410 GR</item>
+
+    </string-array>
+
+
+    <string-array name="spinnerDelMonteFoods">
+        <item>FRUIT AND CHIA DURAZNO FRESA 198 GR</item>
+        <item>FRUIT AND CHIA PERA Y ZARZAMORA 198 GR</item>
+        <item>FRUIT AND OATS DURAZNO CANELA 198 GR</item>
+        <item>FRUIT AND OATS MANZANA CANELA 198 GR</item>
+        <item>FRUIT AND OATS MANZANA MORAS 198 GR</item>
+        <item>FRUIT AND OATS PERA MAPLE 198 GR</item>
+        <item>Coctel de fruta 425 g</item>
+        <item>DELMONTE DURAZNOS EN REBANADAS 12/425g</item>
+
+    </string-array>
+
+    <string-array name="spinnerHerdez">
+        <item>DURAZNOS MITADES 820GR</item>
+    </string-array>
+
+    <string-array name="spinnerLaCosteña">
+        <item>COCTEL FRUTA 850 GR</item>
+    </string-array>
+
+    <string-array name="spinnerLaGitana">
+        <item>CEREZAS 283 GR</item>
+        <item>CEREZAS 439 GR</item>
+    </string-array>
+
+    <string-array name="spinnerSW">
+        <item>COCTEL DE FRUTAS 820 GR</item>
+        <item>CUBOS DE MANGO 425 GR</item>
+        <item>DURAZNO EN MITADES 820 GR</item>
+        <item>DURAZNOS EN REBANADAS 425 GR</item>
+        <item>EJOTES 411 GR</item>
+        <item>ELOTE DORADO 432 GR</item>
+        <item>REBANADAS DE PIÑA 234 GR</item>
+        <item>REBANADAS DE PIÑA 567 GR</item>
+        <item>TROZOS DE PIÑA 234 GR</item>
+        <item>TROZOS DE PIÑA 567 GR</item>
+
+    </string-array>
+
+
+    <string-array name="spinnerDelMonteFruits">
+        <item>COCTEL DE FRUTAS 820 GR</item>
+        <item>CUBOS DE MANGO 425 GR</item>
+        <item>DURAZNO EN MITADES 820 GR</item>
+        <item>DURAZNOS EN REBANADAS 425 GR</item>
+        <item>EJOTES 411 GR</item>
+        <item>ELOTE DORADO 432 GR</item>
+
+    </string-array>
+
+
+    <string-array name="spinerDepartamentosPropios">
+        <item>SELECCIONE EL DEPARTAMENTO</item>
+        <item>ABARROTES</item>
+        <item>CAJAS</item>
+        <item>VARIOS</item>
+    </string-array>
+
+
+    <string-array name="spineExihibicionAdd">
+        <item>SELECCIONE  EXHIBICION</item>
+        <item>SI</item>
+        <item>NO</item>
+    </string-array>
+
+
+    <string-array name="spinerTipoExibicion">
+        <item>SELECCION TIPO DE EXHIBICION</item>
+        <item>ISLA</item>
+        <item>CABECERA</item>
+    </string-array>
+
+
+    <string-array name="array_provincias">
+        <item>AKI</item>
+        <item>CASA LEY</item>
+        <item>ARTELI </item>
+        <item>CALIMAX </item>
+        <item>AL SUPER </item>
+        <item>CHEDRAUI </item>
+        <item>DEL NORTE </item>
+        <item>FLORIDO </item>
+        <item>HEB</item>
+        <item>LACOMER</item>
+        <item>SMART </item>
+        <item>SORIANA </item>
+        <item>SÙPERMERCADO GONZALEZ</item>
+        <item>WALMART</item>
+    </string-array>
+
+    <string-array name="array_sevilla">
+        <item>AKI</item>
+    </string-array>
+
+    <string-array name="array_malaga">
+        <item>CASA LEY</item>
+    </string-array>
+
+
+    <string-array name="array_CasaArteli">
+        <item>CASA ARTELI</item>
+    </string-array>
+
+    <string-array name="array_Calimax">
+        <item>CALIMAX</item>
+    </string-array>
+
+
+    <string-array name="array_ALSUPER">
+        <item>AL SUPER</item>
+    </string-array>
+
+
+    <string-array name="array_CHEDRAUI">
+        <item>SELECTO</item>
+        <item>CHEDRAUI</item>
+        <item>SUPER CHE</item>
+    </string-array>
+
+
+    <string-array name="array_DELNORTE">
+        <item>DEL NORTE</item>
+    </string-array>
+
+
+    <string-array name="array_FLORIDO">
+        <item>FLORIDO</item>
+    </string-array>
+
+
+    <string-array name="array_HEB">
+        <item>HEB</item>
+    </string-array>
+
+
+    <string-array name="array_LACOMER">
+        <item>LA COMER</item>
+        <item>FRESKO</item>
+        <item>CITY MARKET</item>
+    </string-array>
+
+
+    <string-array name="array_SMART">
+        <item>SMART</item>
+    </string-array>
+
+
+    <string-array name="array_SORIANA">
+        <item>HIPER </item>
+        <item>MEGA  </item>
+        <item>SUPER </item>
+    </string-array>
+
+
+    <string-array name="array_SUPERMERCADOGONZALEZ">
+
+        <item>SÙPERMERCADO GONZALEZ</item>
+    </string-array>
+
+
+    <string-array name="array_WALMART">
+        <item>SUPERCENTER</item>
+        <item>BODEGA AURRERA</item>
+        <item>SUPERAMA </item>
+    </string-array>
+
+
+    <string-array name="spinerDepartamento">
+
+        <item>SELECCIONE EL DEPARTAMENTO</item>
+        <item>FRUTAS Y VERDURAS</item>
+        <item>CONGELADOS</item>
+
+
+    </string-array>
+
+
+    <string-array name="spinereXISTENCIA">
+
+        <item>EXISTENCIA</item>
+        <item>SI</item>
+        <item>NO</item>
+
+
+    </string-array>
+
+
+    <string-array name="spinerOfertaExiste">
+
+        <item>OFERTA EXISTENTE</item>
+        <item>SI</item>
+        <item>NO</item>
+
+
+    </string-array>
+
+
+    <string-array name="spinerTipoOfera">
+
+        <item>TIPO OFERTA</item>
+        <item>LIQUIDACION</item>
+        <item>3 X 2</item>
+        <item>COMPETENCIA</item>
+
+    </string-array>
+
+
+    <string-array name="spinerPlaza">
+
+        <item>SELECCIONE LA PLAZA</item>
+        <item>VDM</item>
+        <item>MTY</item>
+        <item>GDL</item>
+        <item>CD JUAREZ</item>
+        <item>CULIACAN</item>
+        <item>MERIDA</item>
+        <item>TIJUANA</item>
+        <item>CHIHUAHUA</item>
+        <item>SLP</item>
+        <item>TAMPICO</item>
+        <item>HERMOSILLO</item>
+
+
+    </string-array>
+
+
+    <string-array name="spinerClasificacion">
+
+        <item>SELECCIONE UNA OPCION DE CLASIFICACION</item>
+        <item>FRUTAS</item>
+        <item>VERDURAS</item>
+        <item>HORTALIZAS</item>
+        <item>PRODUCTO ORGANICO</item>
+        <item>PRODUCTO NO ORGANICO</item>
+
+    </string-array>
+
+
+    <string-array name="spinerIdentificacion1">
+
+        <item>SELECCIONE TIPO DE IDENTIFICACION</item>
+        <item>DATABAR</item>
+        <item>GTIN</item>
+        <item>PLU</item>
+        <item>QR</item>
+        <item>NADA</item>
+
+    </string-array>
+
+    <string-array name="spinerIdentificacion2">
+
+        <item>SELECCIONE TIPO DE IDENTIFICACION</item>
+        <item>PLU</item>
+        <item>QR</item>
+        <item>NADA</item>
+
+    </string-array>
+
+    <string-array name="spinerPresentacion">
+
+        <item>SELECCIONE TIPO DE PRESENTACION</item>
+        <item>EMPACADO</item>
+        <item>GRANEL</item>
+        <item>PIEZA</item>
+
+    </string-array>
+
+
+    <string-array name="spinerPregunta">
+
+        <item>SELECCIONE UNA RESPUESTA</item>
+        <item>SI</item>
+        <item>NO</item>
+
+
+    </string-array>
+
+
+    <string-array name="Stores">
+
+        <item> CIMATARIO HIPER</item>
+        <item> CUERNAVACA ALTA TENS SUPER CHE</item>
+        <item> CUERNAVACA DIANA  LA COMER</item>
+        <item> GUADALAJARA LOMAS TONALA SELECTO</item>
+        <item> MANUEL AVILA CAMACHO  SP</item>
+        <item> MONTES BERNESES  HIPER</item>
+        <item> ORIENTE  HIPER</item>
+        <item> PLAZA FIESTA  MEGA</item>
+        <item> PLAZA MAYOR  FRESKO</item>
+        <item> PLAZA NATIVA  SUPER</item>
+        <item> POLIGONO  CH AB</item>
+        <item> PUERTO MORELOS CENTRO  SUPER CHE</item>
+        <item> PUERTO MORELOS PLAYA  SUPER CHE</item>
+        <item> QRO JURIQUILLA 11 18 SELECTO</item>
+        <item> SAN JORGE  HIPER</item>
+        <item> SAN MIGUEL  HIPER</item>
+        <item> VILLA GAVIOTAS SUPERCHE</item>
+        <item>15 DE MAYO  SC</item>
+        <item>16 DE SEPTIEMBRE  SC</item>
+        <item>ACAPULCO  SC</item>
+        <item>ACAPULCO COSTERA  HIPER</item>
+        <item>ACAPULCO DIAMANTE  SELECTO</item>
+        <item>ACAPULCO SOL  SUPER</item>
+        <item>ACOXPA  SP</item>
+        <item>ACUEDUCTO  SELECT</item>
+        <item>ACUEDUCTO DE GPE  SC</item>
+        <item>AEROPUERTO  SC</item>
+        <item>AGUILAS HIPER</item>
+        <item>AJUSCO  CH</item>
+        <item>ALFREDO DEL MAZO  SC</item>
+        <item>ALFREDO DEL MAZO  SELECTO</item>
+        <item>ALTABRISA  SC</item>
+        <item>AMERICAS CH AB</item>
+        <item>AMERICAS GDL  HIPER</item>
+        <item>ANGELOPOLIS  FRESKO</item>
+        <item>ANGELOPOLIS  MEGA</item>
+        <item>ANGELOPOLIS  SC</item>
+        <item>ANGELOPOLIS  SELECT</item>
+        <item>ANIMAS  HIPER </item>
+        <item>ANIMAS SC</item>
+        <item>ANTENEA CITY MARKET </item>
+        <item>ARAGON HIPER</item>
+        <item>ASTURIAS  MEGA</item>
+        <item>AV JESUS DEL MONTE  SC</item>
+        <item>AV MEXICO</item>
+        <item>AV TOLUCA  SP</item>
+        <item>AV TULUM  SP</item>
+        <item>AVERANDA SC</item>
+        <item>AVIACION HIPER</item>
+        <item>AVILA CAMACHO SC</item>
+        <item>AXOMIATLA  SP</item>
+        <item>AZCAPOTZALCO  SC</item>
+        <item>B DE LAS LOMAS  SP</item>
+        <item>BALBUENA  SC</item>
+        <item>BARRILACO  SP</item>
+        <item>BATAN SC</item>
+        <item>BELENES  HIPER</item>
+        <item>BELLAVISTA   SUPERCHE</item>
+        <item>BENITO JUAREZ  HIPER</item>
+        <item>BLVD RUIZ CORTINES SC</item>
+        <item>BOCA DEL RIO VERACRUZ SC</item>
+        <item>BONAMPAK  SP</item>
+        <item>BOSQUE GDL SUPER</item>
+        <item>BOSQUES DE MINAS SP</item>
+        <item>BOSQUES DE RENTERIA  SC</item>
+        <item>BOSQUES ESMERALDA  LACOMER</item>
+        <item>BOULEVARD DELTA  SC</item>
+        <item>BUENA VISTA  HIPER</item>
+        <item>BUENAVISTA SC</item>
+        <item>BUGAMBILIAS HIPER</item>
+        <item>C FORTUNA  SELECT</item>
+        <item>CALANDRIAS TESISTAN SC</item>
+        <item>CALZADA DE LOS LEONES  SP</item>
+        <item>CAMPESTRE  MEGA</item>
+        <item>CANCUN CHACMOOL CHEDRAUI AB</item>
+        <item>CANCUN COMANCALCO  SC</item>
+        <item>CANCUN KABAH SELECTO</item>
+        <item>CANCUN LABNA  SC</item>
+        <item>CANCUN ZONA H 10 SUPER CHE</item>
+        <item>CAPU HIPER</item>
+        <item>CARRETERA 57  SC</item>
+        <item>CAUCEL  CH AB</item>
+        <item>CD JARDIN  SC</item>
+        <item>CD JUDICIAL SC</item>
+        <item>CENTRO  MEGA</item>
+        <item>CENTRO TORREON  HIPER</item>
+        <item>CERRADA DE ANAHUAC - SUPER</item>
+        <item>CERRO GORDO HIPER</item>
+        <item>CHAPALITA SUPER</item>
+        <item>CHAPULTEPEC  SC</item>
+        <item>CHAPULTEPEC 1200 SUPER</item>
+        <item>CHEDRAUI PLAYA DEL CARMEN CENTRO</item>
+        <item>CHEDRAUI PLAYA DEL CARMEN VELAMAR</item>
+        <item>CHURUBUSCO  SP</item>
+        <item>CIENFUEGOS VISTA NORTE CH  AB</item>
+        <item>CIRCUNVALACION  HIPER</item>
+        <item>CITADINA LAS PUENTES  SUPER</item>
+        <item>CITY TOWER SUPER</item>
+        <item>CLOUTHIER  SC</item>
+        <item>CLUB PLAZA AMERICA CH</item>
+
+
+        <item>COACALCO  HIPER</item>
+        <item>COACALCO SC</item>
+        <item>COACALCO LOPEZ PORTILLO  MEGA</item>
+        <item>COAPA  MEGA</item>
+        <item>COFRADIAS  HIPER</item>
+        <item>COLON  SC</item>
+        <item>COLON TORREON HIPER</item>
+        <item>COLOSIO  HIPER</item>
+        <item>CONSTITUYENTES  HIPER</item>
+        <item>CONTRY  HIPER</item>
+        <item>COPILCO  SC</item>
+        <item>CORDILLERAS  HIPER</item>
+        <item>COYOACAN LACOMER</item>
+        <item>COYOACAN  SP</item>
+        <item>CRUZ DEL SUR  CH AB</item>
+        <item>CRUZ DEL SUR  SUPER</item>
+        <item>CRYSTAL  CHE AB</item>
+        <item>CUAJIMALPA  SC</item>
+        <item>CUAJIMALPA FRONDOSO CH AB</item>
+        <item>CUAUTITLAN IZCALLI  HIPER</item>
+        <item>CUEMANCO  SC</item>
+        <item>CUERNAVACA  FRESKO</item>
+        <item>CUERNAVACA CENTRO MEGA</item>
+        <item>CUERNAVACA FLORES MAGON SELECTO</item>
+        <item>CUERNAVACA SUPER</item>
+        <item>CUITLAHUAC HIPER</item>
+        <item>CUITLAHUAC  SC</item>
+        <item>CUMBRE  SC</item>
+        <item>CUMBRES  HIPER</item>
+        <item>CUMBRES  SP</item>
+        <item>DEL VALLE  SP</item>
+        <item>DEL VALLE NORTE  SP</item>
+        <item>DESCUBRIDORES  SUPER</item>
+        <item>DIAMANTE MEGA</item>
+        <item>DIAMANTE  SC</item>
+        <item>DIAZ ORDAZ HIPER</item>
+        <item>DIEGO DIAZ HIPER</item>
+        <item>DIVISION DEL NORTE SP</item>
+        <item>DIVISION DEL NORTE MEGA</item>
+        <item>DOMINGO DIEZ SC</item>
+        <item>ECATEPEC CENTRO SC</item>
+        <item>ECATEPEC CENTRO MEGA</item>
+        <item>ECHEGARAY HIPER</item>
+        <item>ECHEGARAY  SC</item>
+        <item>ECHEGARAY  SP</item>
+        <item>EL CONCHAL SP</item>
+        <item>EL DORADO  LACOMER</item>
+        <item>EL DORADO  SELECTO</item>
+        <item>EL DORADO SLP SELECTO</item>
+        <item>EL PASEO HIPER</item>
+        <item>EL ROSARIO  SC</item>
+        <item>EL SALADO  HIPER</item>
+        <item>ELOY CAVAZOS SC</item>
+        <item>ERMITA IZTAPALAPA  MEGA</item>
+        <item>ESCOBEDO  HIPER</item>
+        <item>ESCOBEDO NORTE SC</item>
+        <item>ESMERALDA SP</item>
+        <item>ESPACIO ESMERALDA SC</item>
+        <item>ESPACIO TLAQUEPAQUE  SUPER</item>
+        <item>ESTADIO HIPER</item>
+        <item>ESTANZUELA  HIPER</item>
+        <item>EUGENIA SUPER</item>
+        <item>EXPLANADA SUPERCHE</item>
+        <item>F DE LAS LOMAS  SP</item>
+        <item>FELIX CUEVAS  SC</item>
+        <item>FELIX CUEVAS  SP</item>
+        <item>FELIX GOMEZ  HIPER</item>
+        <item>FIDEL VELAZQUEZ  HIPER</item>
+        <item>FLORESTA  CH AB</item>
+        <item>FORUM TLAQUEPAQUE MEGA</item>
+        <item>FUENTES DEL PEDREGAL  SP</item>
+        <item>FUNDADORES  HIPER</item>
+        <item>FUNDIDORA SUPER</item>
+        <item>GALERIAS SP</item>
+        <item>GALERIAS LAS TORRES  SC</item>
+        <item>GALERIAS METEPEC SUPER</item>
+        <item>GARZA SADA  HIPER</item>
+        <item>GEORGIA  SP</item>
+        <item>GIRASOLES  SP</item>
+        <item>GOBERNADOR CURIEL  HIPER</item>
+        <item>GOBERNADORES  SP</item>
+        <item>GOMEZ MORIN  CITY M</item>
+        <item>GOMEZ MORIN SC</item>
+        <item>GRAN PATIO TOLUCA MEGA</item>
+        <item>GRAN SUR MEGA</item>
+        <item>GUADALAJARA PARQUES  SC</item>
+        <item>GUADALUPE  HIPER</item>
+        <item>GUADALUPE NVO LEON SC</item>
+        <item>HERMANOS SERDAN  MEGA</item>
+        <item>HERRADURA  LACOMER</item>
+        <item>HOMERO  SP</item>
+        <item>HORACIO  SP</item>
+        <item>HOSPITAL GENERAL  SC</item>
+        <item>HUINALA  HIPER</item>
+        <item>INDEPENDENCIA  HIPER</item>
+        <item>INDEPENDENCIA TORREON SC</item>
+        <item>INDIANA  SP</item>
+        <item>INSURGENTES  LACOMER</item>
+        <item>INSURGENTES  MEGA</item>
+
+
+        <item>INSURGENTES LA JOYA  SP</item>
+        <item>INSURGENTES MTY SUPER</item>
+        <item>INTERLOMAS  CITY M</item>
+        <item>INTERLOMAS  SC</item>
+        <item>INTERLOMAS  SELECT</item>
+        <item>INTERLOMAS  SP</item>
+        <item>INTERLOMAS HILL  SUPERCHE</item>
+        <item>IZCALLI  MEGA</item>
+        <item>IZTAPALAPA HIPER</item>
+        <item>IZTAPALAPA LAS TORRES  LACOMER</item>
+        <item>JARDINES  SP</item>
+        <item>JARDINES DE LA MONTANA  SP</item>
+        <item>JARDINES DEL SOL  SC</item>
+        <item>JESUS DEL MONTE FRESKO</item>
+        <item>JIUTEPEC CH AB</item>
+        <item>JIUTEPEC  SC</item>
+        <item>JIUTEPEC MEGA</item>
+        <item>JUAREZ  SUPER</item>
+        <item>JURICA  SP</item>
+        <item>JURIQUILLA  FRESKO</item>
+        <item>JURIQUILLA  SC</item>
+        <item>JURIQUILLA SANTA FE  SP</item>
+        <item>LA AURORA  SUPER</item>
+        <item>LA CAPILLA  HIPER</item>
+        <item>LA CIMA  SC</item>
+        <item>LA CRUZ  SC</item>
+        <item>LA DIANA  MEGA</item>
+        <item>LA FE HIPER</item>
+        <item>LA FE  SC</item>
+        <item>LA HUASTECA SC</item>
+        <item>LA MARINA SP</item>
+        <item>LA NORIA  SP</item>
+        <item>LA NORIA  SUPER</item>
+        <item>LA PASTORA SC CERRO DE LA SILLA</item>
+        <item>LA PUERTA  HIPER</item>
+        <item>LA RIOJA FRESKO</item>
+        <item>LA ROSITA  SC</item>
+        <item>LA SELVA  MEGA </item>
+        <item>LA VIGA  HIPER</item>
+        <item>LA VIGA  MEGA</item>
+        <item>LA VILLA  HIPER</item>
+        <item>LA VILLA TEPEYAC  MEGA</item>
+        <item>LAGO ALBERTO  LACOMER</item>
+        <item>LAGO DE GUADALUPE  SC</item>
+        <item>LAS AGUILAS  SC</item>
+        <item>LAS ALAMEDAS  SC</item>
+        <item>LAS ARMAS MEGA</item>
+        <item>LAS FUENTES  HIPER</item>
+        <item>LAS FUENTES TLAQUEPAQUE  MEGA </item>
+        <item>LAS QUINTAS HIPER</item>
+        <item>LAS TORRES  HIPER</item>
+        <item>LAS TORRES  SC</item>
+        <item>LAS TORRES  SP</item>
+        <item>LEON  MEGA</item>
+        <item>LEON CAMPESTRE  SELECTO</item>
+        <item>LERMA  SC</item>
+        <item>LILAS  SP</item>
+        <item>LINCOLN  HIPER</item>
+        <item>LINCOLN  SC</item>
+        <item>LINDAVISTA  HIPER</item>
+        <item>LINDAVISTA  SP</item>
+        <item>LOMAS  CITY M</item>
+        <item>LOMAS ANAHUAC LACOMER</item>
+        <item>LOMAS ANAHUAC  SP</item>
+        <item>LOMAS SLP SP</item>
+        <item>LOMAS VERDES HIPER</item>
+        <item>LOMAS VERDES SC</item>
+        <item>LOMAS VERDES  SP</item>
+        <item>LOMAS VIRREYES  SUPER</item>
+        <item>LOPEZ MATEOS SUR  SC</item>
+        <item>LORETO  SP</item>
+        <item>LOS ANGELES  HIPER</item>
+        <item>LOS FRESNOS HIPER</item>
+        <item>LOS MORALES  SP</item>
+        <item>LOS PINOS ZARAGOZA SC</item>
+        <item>LUIS CABRERA  SP</item>
+        <item>MALECON HIPER</item>
+        <item>MANUEL ACUNA  SP</item>
+        <item>MARAVILLAS HIPER</item>
+        <item>MARIANO ESCOBEDO  SUPER</item>
+        <item>MARIANO OTERO - SP</item>
+        <item>MARNE  SUPER</item>
+        <item>MAYORAZGO SP</item>
+        <item>MEGA ARBOLEDAS  MEGA</item>
+        <item>MERIDA SC</item>
+        <item>MERIDA NORTE SC</item>
+        <item>MERIDA NORTE SELECTO</item>
+        <item>METEPEC</item>
+        <item>METEPEC  CITYMARKET</item>
+        <item>METEPEC MEGA</item>
+        <item>METEPEC  SC</item>
+        <item>METRO ROSARIO  SUPER</item>
+        <item>MIDTOWN  FRESKO</item>
+        <item>MIGUEL A DE QUEVEDO FRESKO</item>
+        <item>MIGUEL ALEMAN  HIPER</item>
+        <item>MILENIO  SP</item>
+        <item>MIRAMONTES  HIPER</item>
+        <item>MIRAMONTES SC</item>
+        <item>MITRAS  HIPER</item>
+        <item>MIXCOAC  HIPER</item>
+
+
+        <item>MIXCOAC MEGA</item>
+        <item>MIYANA  HIPER</item>
+        <item>MONTEJO  SP</item>
+        <item>MONTERREAL SUPERCHE</item>
+        <item>MONTERREAL SUPER</item>
+        <item>MORELOS SUR  SUPER</item>
+        <item>MTY SAN JERONIMO  SP</item>
+        <item>MULTIPLAZA ALAMEDAS  MEGA</item>
+        <item>MULTIPLAZA ARAGON MEGA</item>
+        <item>MUNDO E  CH</item>
+        <item>NACIONES UNIDAS  SP</item>
+        <item>NARVARTE SP</item>
+        <item>NEZAHUALCOYOLT  MEGA</item>
+        <item>NICHUPTE  SC</item>
+        <item>NICOLAS ROMERO  SC</item>
+        <item>NILO LOMAS D L PAJAROS  SC</item>
+        <item>NIÑO OBRERO SC</item>
+        <item>NUEVA GALICIA TLAJOMULCO  MEGA</item>
+        <item>NUEVO SUR  SP</item>
+        <item>OBLATOS  HIPER</item>
+        <item>OLIPLAZA  SP PORTAL CHURUBUSCO</item>
+        <item>OLIVAR DE LOS PADRES LACOMER</item>
+        <item>ORADORES  SP</item>
+        <item>PABELLON AZCAPOTZALCO HIPER</item>
+        <item>PABELLON BOSQUES FRESKO</item>
+        <item>PABLO NERUDA  SUPER</item>
+        <item>PACHUCA  SP</item>
+        <item>PALOMAR SUPER</item>
+        <item>PARAISO SC</item>
+        <item>PARQUE DELTA HIPER</item>
+        <item>PARQUE INDUSTRIAL HIPER</item>
+        <item>PARQUE JARDIN  SUPER</item>
+        <item>PARQUES POLANCO  SP</item>
+        <item>PASEO REAL SC</item>
+        <item>PASEOS DE TAXQUENA SP</item>
+        <item>PASO LA JOYA  HIPER</item>
+        <item>PASTORA HIPER</item>
+        <item>PATIO LAS ANTENAS SC</item>
+        <item>PATIO PEDREGAL SP</item>
+        <item>PATIO SANTA FE  SC</item>
+        <item>PATIO TLALPAN SC</item>
+        <item>PATIO TLATELOLCO  SC</item>
+        <item>PATRIA CITY M</item>
+        <item>PATRIA  SC</item>
+        <item>PEDREGAL SELECT</item>
+        <item>PEDREGAL  SP</item>
+        <item>PENSIONES SC</item>
+        <item>PEÑUELAS  MEGA</item>
+        <item>PERIFERICO  SP</item>
+        <item>PERIFERICO CUAUTITLAN SC</item>
+        <item>PERIFERICO MERIDA SC</item>
+        <item>PERIFERICO SUR SC</item>
+        <item>PERINORTE HIPER</item>
+        <item>PERINORTE SC</item>
+        <item>PIE DE LA CUESTA SELECTO</item>
+        <item>PILARES CITY M</item>
+        <item>PILARES  MEGA</item>
+        <item>PILARES  SC</item>
+        <item>PIRULES  SC</item>
+        <item>PLATEROS SC</item>
+        <item>PLAYA DEL CARMEN SC</item>
+        <item>PLAYA DEL CARMEN AMERICAS  CHEDRAUI AB</item>
+        <item>PLAYA NORTE SC</item>
+        <item>PLAZA ARAGON  SC</item>
+        <item>PLAZA ARBOLEDAS  SC</item>
+        <item>PLAZA ATIZAPAN  MEGA</item>
+        <item>PLAZA CANTIL  HIPER</item>
+        <item>PLAZA CARSO  CITY M</item>
+        <item>PLAZA CENTRIKA  SC</item>
+        <item>PLAZA CITADINA HIPER</item>
+        <item>PLAZA DE TOROS SC</item>
+        <item>PLAZA DEL PARQUE  MEGA</item>
+        <item>PLAZA EDUARDO MOLINA  SC</item>
+        <item>PLAZA FIESTA ANAHUAC SUPER</item>
+        <item>PLAZA GUADALUPE  SUPER</item>
+        <item>PLAZA JARDINES SAN MATEO  HIPER</item>
+        <item>PLAZA LA PILITA SUPER</item>
+        <item>PLAZA LAGO  SC</item>
+        <item>PLAZA MUÑOZ  SUPER</item>
+        <item>PLAZA OLMECA SELECTO</item>
+        <item>PLAZA ORIENTE  SC</item>
+        <item>PLAZA SAN DIEGO  SUMESA</item>
+        <item>PLAZA SAN PEDRO  MEGA</item>
+        <item>PLAZA SERENA  SUPER</item>
+        <item>PLAZA SOL  HIPER</item>
+        <item>PLAZA UNIVERSIDAD  SUPER</item>
+        <item>POLANCO SELECT</item>
+        <item>POLIGONO  SC</item>
+        <item>PONIENTE QRO  SC</item>
+        <item>POPOCATEPETL  SP</item>
+        <item>PORTAL CENTRO  SC</item>
+        <item>PORTAL SAN ANGEL  SC</item>
+        <item>PORTAL VERACRUZ SALVADOR DIAZ MIRON</item>
+        <item>PROVIDENCIA SP</item>
+        <item>PUEBLA REFORMA SC</item>
+        <item>PUEBLO NUEVO LACOMER</item>
+        <item>PUEBLO NUEVO  SC</item>
+        <item>PUEBLO NUEVO SUPER</item>
+        <item>PUERTA DEL HIERRO SP</item>
+        <item>PUERTO AVENTURAS SUPER CHE</item>
+
+        <item>PUNTA DEL ESTE  SC</item>
+        <item>QRO ESTADIO LACOMER</item>
+        <item>QUERETARO (QUINTANA) SC</item>
+        <item>QUINTANA HIPER</item>
+        <item>RANCHO TERREMOTO CUAUTITLAN  MEGA</item>
+        <item>RENACIMIENTO  MEGA</item>
+        <item>REVOLUCION SC</item>
+        <item>REVOLUCION  SP</item>
+        <item>RIO CHURUBUSCO  SP</item>
+        <item>RIO DE LOS REMEDIOS SC</item>
+        <item>RIO MAYO  HIPER</item>
+        <item>RIO MAYO SP</item>
+        <item>RIO NILO HIPER</item>
+        <item>ROJO GOMEZ  MEGA</item>
+        <item>ROSARIO HIPER</item>
+        <item>ROSAS GDL SUPER</item>
+        <item>RUBEN DARIO SP</item>
+        <item>SALVADOR NAVA MACRO PLAZA SC</item>
+        <item>SAMARA  SELECT</item>
+        <item>SAN AGUSTIN  HIPER</item>
+        <item>SAN AGUSTIN SUPER</item>
+        <item>SAN ISIDRO  SP</item>
+        <item>SAN ISIDRO WM</item>
+        <item>SAN JERONIMO CITY M</item>
+        <item>SAN JERONIMO HIPER</item>
+        <item>SAN JERONIMO MEGA</item>
+        <item>SAN LUIS POTOSI HIPER</item>
+        <item>SAN LUIS POTOSI SC</item>
+        <item>SAN MANUEL  SC</item>
+        <item>SAN MARCOS IZCALLI SC</item>
+        <item>SAN MATEO  SP</item>
+        <item>SAN MATEO MEGA</item>
+        <item>SAN NICOLAS  HIPER</item>
+        <item>SAN NICOLAS SC</item>
+        <item>SAN PEDRO HIPER</item>
+        <item>SAN ROQUE HIPER</item>
+        <item>SANIA FRESKO</item>
+        <item>SANTA ANITA  SP</item>
+        <item>SANTA CATARINA HIPER</item>
+        <item>SANTA CECILIA  HIPER</item>
+        <item>SANTA CRUZ HIPER</item>
+        <item>SANTA FE  CITY M</item>
+        <item>SANTA FE SELECT</item>
+        <item>SANTA MARIA HIPER</item>
+        <item>SANTIN SC</item>
+        <item>SANZIO FRESKO</item>
+        <item>SATELITE HIPER</item>
+        <item>SATELITE LACOMER</item>
+        <item>SATELITE  SC</item>
+        <item>SC MIGUEL ALEMAN SUPERCENTER</item>
+        <item>SENA SP</item>
+        <item>SENDERO  SC</item>
+        <item>SENDERO ACAPULCO HIPER</item>
+        <item>SENDERO APODACA  HIPER</item>
+        <item>SENDERO ESCOBEDO HIPER</item>
+        <item>SENDERO LA FE  HIPER</item>
+        <item>SENDERO LINCOLN HIPER</item>
+        <item>SENDERO QUERETARO HIPER</item>
+        <item>SENDERO SAN LUIS POTOSI  HIPER</item>
+        <item>SENDERO TOLUCA HIPER</item>
+        <item>SENTURA  CH AB</item>
+        <item>SIMON BOLIVAR  SUPER</item>
+        <item>SLP MUNOZ SC</item>
+        <item>SOLESTA  LACOMER</item>
+        <item>SOLIDARIDAD  HIPER</item>
+        <item>SORIANA CONSTITUCION  HIPER</item>
+        <item>SORIANA JIUTEPEC HIPER</item>
+        <item>SORIANA SERAFIN PEÑA  HIPER</item>
+        <item>STA FE  SP</item>
+        <item>STA FE SUPER</item>
+        <item>STA MARIA COACALCO SC</item>
+        <item>STA MARIA LA RIBERA  LACOMER</item>
+        <item>STA ROSA HIPER</item>
+        <item>STO DOMINGO HIPER</item>
+        <item>SUPER PLAZA ECATEPEC  SC</item>
+        <item>TABASCO 2000  SC</item>
+        <item>TACUBA MEGA</item>
+        <item>TACUBAYA  HIPER</item>
+        <item>TANGAMANGA  HIPER</item>
+        <item>TANGAMANGA MEGA</item>
+        <item>TAXQUEÑA SC</item>
+        <item>TECAMACHALCO  FRESKO</item>
+        <item>TECAMACHALCO SELECT</item>
+        <item>TECAMACHALCO  SP</item>
+        <item>TECNOLOGICO  SP</item>
+        <item>TEJEDA  SP</item>
+        <item>TEPEYAC CH AB</item>
+        <item>TEPEYAC SC</item>
+        <item>TERRANOVA  SUPER</item>
+        <item>TEZONTLE SUPERCHE</item>
+        <item>TLAHUAC SC</item>
+        <item>TLALPAN LACOMER</item>
+        <item>TLALPAN SC</item>
+        <item>TLANEPANTLA SC</item>
+        <item>TLATELOLCO  MEGA</item>
+        <item>TOLSA SUPER</item>
+        <item>TOLTECAS  SC</item>
+        <item>TOLUCA (TOLLOCAN)  SC</item>
+        <item>TONALA  SC</item>
+        <item>TOPO CHICO  HIPER</item>
+
+
+        <item>TOREO SC</item>
+        <item>TOREO  SELECT</item>
+        <item>TORIELLO SUPER</item>
+        <item>TORRECILLAS  HIPER</item>
+        <item>TORREON ABASTOS  SC</item>
+        <item>TORREON LOS ANGELES  SUPER</item>
+        <item>TORRES DE SATELITE LACOMER</item>
+        <item>TORRES GDL  HIPER</item>
+        <item>TORRES LANDA  SC</item>
+        <item>TORRES LINDAVISTA SC</item>
+        <item>TRIANA  HIPER</item>
+        <item>TULTITLAN  LACOMER</item>
+        <item>TULYEHUALCO  MEGA</item>
+        <item>UNIVERSIDAD  SC</item>
+        <item>UNIVERSIDAD  SELECT</item>
+        <item>VALLARTA  FRESKO</item>
+        <item>VALLARTA  SC</item>
+        <item>VALLARTA MTY  HIPER</item>
+        <item>VALLE DORADO  SP</item>
+        <item>VALLE ORIENTE SC</item>
+        <item>VALLE PONIENTE  SUPER</item>
+        <item>VALLE REAL  SC</item>
+        <item>VALLE REAL  SP</item>
+        <item>VALLE SOLEADO HIPER</item>
+        <item>VERACRUZ AMERICA  CH AB</item>
+        <item>VILLA CARRIZAL CH AB</item>
+        <item>VILLA COAPA MEGA SUPER</item>
+        <item>VILLA DE JUAREZ  SC</item>
+        <item>VILLA JUAREZ HIPER</item>
+        <item>VILLACOAPA CH</item>
+        <item>VILLACOAPA  LACOMER</item>
+        <item>VILLACOAPA  SC</item>
+        <item>VILLAHERMOSA I  SC</item>
+        <item>VILLAHERMOSA II  SC</item>
+        <item>VILLAS DE LA HACIENDA  MEGA</item>
+        <item>VIRREYES  SP</item>
+        <item>VISTA ALEGRE  MEGA</item>
+        <item>VISTA HERMOSA  SUPER</item>
+        <item>VISTAHERMOSA SP</item>
+        <item>VIVEROS  SP</item>
+        <item>VIVEROS  SUPERCHE</item>
+        <item>WTC DAKOTA  SP</item>
+        <item>XOCHIMILCO CH</item>
+        <item>ZAPATA SP</item>
+        <item>ZAPOPAN HIPER</item>
+        <item>ZARAGOZA HIPER</item>
+        <item>ZARAGOZA LACOMER</item>
+        <item>ZARAGOZA  MEGA</item>
+        <item>ZAVALETA SP</item>
+        <item>ZINACANTEPEC SC</item>
+        <item>ZINACANTEPEC MEGA</item>
+        <item>MILENIO FRESKO</item>
+        <item>EL REFUGIO LACOMER</item>
+        <item>UNIVERSIDAD SC</item>
+        <item>AV CENTRAL BA</item>
+        <item>PLAZA ARAGÓN BA</item>
+        <item>CONSULADO  HIPER</item>
+        <item>EUGENIA SP</item>
+        <item>UNIVERSIDAD  SELECT</item>
+        <item>CHEDRAUI NEZAHUALCÓYOTL</item>
+        <item>ALAMEDAS SC</item>
+        <item>PLAZA ATIZAPAN BA</item>
+        <item>ROSARIO HIPER</item>
+        <item>ARBOLERAS MEGA</item>
+        <item>ROSARIO SC</item>
+        <item>NAUCALPAN</item>
+        <item>BOSQUE ESMERALDA  LACOMER</item>
+        <item>ATIZAPAN</item>
+        <item>NICOLAS ROMERO CH</item>
+        <item>ESCOBEDO BA</item>
+        <item>FRESNOS BA</item>
+        <item>SANTA ROSA BA</item>
+        <item>FRESNOS HIPER</item>
+        <item>PLAZA FIESTA  ANAHUAC</item>
+        <item>BENITO JUAREZ SC</item>
+        <item>CAMPO MILITAR SC</item>
+        <item>ESCOBEDO SMART</item>
+        <item>FRESNOS SMART</item>
+        <item>LINCOLN SMART</item>
+        <item>ESCOBEDO HEB</item>
+        <item>CONCORDIA HEB</item>
+        <item>16 DE SEPTIEMBRE  SC</item>
+        <item>INDEPENDENCIA BA</item>
+        <item>BELISARIO DOMINGUEZ BA</item>
+        <item>GUADALAJARA  MEGA</item>
+        <item>CITY TOWER </item>
+        <item>GUADALAJARA LOMAS TONALA </item>
+        <item>GDL VALLARTA  CH</item>
+        <item>ZARAGOZA SC</item>
+        <item>PLAZA MONUMENTAL  SC</item>
+        <item>SENDERO LAS TORRES</item>
+        <item>HENEQUEN</item>
+        <item>SENDERO CD JUAREZ HIPER</item>
+        <item>INDEPENDENCIA SMART</item>
+        <item>TORRES DEL SUR  SMART</item>
+        <item>TALAMAS SMART</item>
+        <item>TALAMAS SMG</item>
+        <item>JILOTEPEC-SMG</item>
+
+
+        <item>LA LUCERO SMG</item>
+        <item>SOLIRADIDAD SC</item>
+        <item>RIO SONORA SC</item>
+        <item>QUIROGA  BA</item>
+        <item>MISIONES BA</item>
+        <item>QUIROGA HIPER</item>
+        <item>PROGRESO HIPER</item>
+        <item>DEL RIO</item>
+        <item>QUIROGA  CASA LEY</item>
+        <item>QUIROGA  DEL NORTE</item>
+        <item>MISIONES DEL NORTE</item>
+        <item>MEXICO 68 SC</item>
+        <item>AEROPUERTO</item>
+        <item>BARRANCOS BA</item>
+        <item>ABASTOS WM</item>
+        <item>ZAPATA (CULIACAN)  HIPER</item>
+        <item>BARRANCOS  HIPER</item>
+        <item>CULIACAN</item>
+        <item>MILENIUM</item>
+        <item>PALMITO CASA LEY</item>
+        <item>PLAZA FIESTA  CASA LEY</item>
+        <item>TIJUANA HIPODROMO  SC</item>
+        <item>DIAZ ORDAZ</item>
+        <item>DELICIAS</item>
+        <item>LOMAS DE LA PRESA </item>
+        <item>FLORIDO FLORIDO LA PRESA </item>
+        <item>FLORIDO FLORIDO LA MESA</item>
+        <item>CALIMAX  CALIMAX FIESTA </item>
+        <item> CALIMAX  CALIMAX LA MESA</item>
+        <item>NATURA </item>
+        <item>LEY 5 Y 10</item>
+        <item>CARROUSEL</item>
+        <item>PINOS </item>
+        <item>NORTE 200</item>
+        <item>CORDILLERAS</item>
+        <item>INDUSTRIAS NORTE </item>
+        <item>PANAMERICANA </item>
+        <item>INDUSTRIAS</item>
+        <item>REVOLUCION</item>
+        <item>JUAN ESCUTIA</item>
+        <item>JUVENTUD</item>
+        <item>UNIVERSIDAD</item>
+        <item>TECNOLOGICO</item>
+        <item>NOGALES</item>
+        <item>SENDEROS</item>
+        <item>HOMEROS</item>
+        <item>AV CENTRAL BA</item>
+        <item>NEZAHUALCOYOTL CH</item>
+        <item>PLAZA ARAGON  BA</item>
+        <item>CONSULADO HIPER</item>
+        <item>ROSARIO SUPER</item>
+        <item>SAN MATEO BA</item>
+        <item>ATIZAPAN</item>
+        <item>NICOLAS ROMERO CH</item>
+        <item>ALAMEDAS SC</item>
+        <item>PLAZA ATIZAPAN BA</item>
+        <item>ARBOLERAS</item>
+        <item>STA ROSA BA</item>
+        <item>SAN NICOLAS HEB</item>
+        <item>CAMPO MILITAR</item>
+        <item>BENITO JUAREZ SUPER</item>
+        <item>INDEPENDENCIA BA</item>
+        <item>BELISARIO DOMINGUEZ BA</item>
+        <item>GUADALAJARA LOMAS TONALA </item>
+        <item>GUADALAJARA MEGA</item>
+        <item>GDL VALLARTA  CH</item>
+        <item>OBLATOS  HIPER</item>
+        <item>INDEPENDENCIA SMART</item>
+        <item>TORRES DEL SUR SMART</item>
+        <item>SENDERO LAS TORRES</item>
+        <item>LA LUCERO</item>
+        <item>PLAZA MONUMENTAL SC</item>
+        <item>RIO SONORA</item>
+        <item>MISIONES BA</item>
+        <item>ZAPATA (CULIACAN) HIPER</item>
+        <item>ABASTOS</item>
+        <item>UNIVERSITARIOS </item>
+        <item>LA PRESA</item>
+        <item>LA MESA</item>
+        <item>LA MESA CALIMAX</item>
+        <item>FIESTA</item>
+        <item>TIJUANA HIPODROMO SC</item>
+        <item>SALVADOR NAVA MACRO PLAZA  SC</item>
+        <item>CARRETERA 57 SC</item>
+        <item>SLP MUNOZ SC</item>
+        <item>LOS PINOS </item>
+        <item>ACCESO NORTE </item>
+        <item>CONSTITUCION </item>
+        <item>PRADOS </item>
+        <item>SENDERO SAN LUIS POTOSI  HIPER</item>
+        <item>TANGAMANGA  HIPER</item>
+        <item>PLAZA CITADINA HIPER</item>
+
+
+    </string-array>
+
+
+    <string-array name="productos">
+
+        <item>4 pack</item>
+        <item>Acai</item>
+        <item>Acelga</item>
+        <item> Aguacate</item>
+        <item> Aguacate BOOTH</item>
+        <item>Aguacate Chiapas</item>
+        <item>Aguacate criollo</item>
+        <item>Aguacate extra</item>
+        <item>Aguacate hass</item>
+        <item>Aguacate Hass en malla</item>
+        <item>Aguacate regional</item>
+        <item>Aguacate Organico</item>
+        <item>Ajenjo</item>
+        <item>Ajo</item>
+        <item>Ajo blanco</item>
+        <item>Ajo en malla</item>
+        <item>Ajo</item>
+        <item>Ajo Italiano</item>
+        <item>Ajo japonés</item>
+        <item>Ajo morado</item>
+        <item>Ajo negro</item>
+        <item>Ajo organico</item>
+        <item>Ajo pelado</item>
+        <item>Albahaca</item>
+        <item> Alcachofa</item>
+        <item>Alcachofas en trozo</item>
+        <item> Alfalfa</item>
+        <item>alfalfa germinada</item>
+        <item>  Alfalfa orgánico y natural</item>
+        <item> Aloe Vera</item>
+        <item> Angula</item>
+        <item>  Antioxidante</item>
+        <item>  Apio</item>
+        <item>Apio celery</item>
+        <item> Apio orgánico</item>
+        <item> Arándanos</item>
+        <item>  Árnica</item>
+        <item> Arugula</item>
+        <item>Arugula baby</item>
+        <item> Arugula orgánica</item>
+        <item>Asian pear</item>
+        <item> Azafrán</item>
+        <item> Baby arúgula</item>
+        <item>baby espinaca</item>
+        <item> Baby bella enteró</item>
+        <item> Baby brócoli</item>
+        <item> Baby brussels</item>
+        <item>  Baby cut</item>
+        <item> Baby Kale organic</item>
+        <item> Baby Kale y arúgula</item>
+        <item>  Espinaca baby</item>
+        <item> Baby zanahorias</item>
+        <item> Bainas</item>
+        <item> Banamania</item>
+        <item> Bananas Dominico</item>
+        <item> Berenjena</item>
+        <item>BERRO y espinaca baby</item>
+        <item> Berros</item>
+        <item> Berry mix</item>
+        <item> Berza</item>
+        <item> Betabel</item>
+        <item> Betabel orgánico</item>
+        <item> Betabel rayado</item>
+        <item> Bist de california</item>
+        <item> Bits de brocoli</item>
+        <item> Bits de coliflor</item>
+        <item> Blackberries</item>
+        <item> Cebolla blanca</item>
+        <item> papa </item>
+        <item> Blueberries</item>
+        <item> Brócoli</item>
+        <item> Brocoli champiñon zanahoria chicharo pimiemto cebolla</item>
+        <item>Brocoli coliflor y zanahoria</item>
+        <item> Brocoli coliflor zanahorias cebolla y ejote</item>
+        <item> Brócoli cuts</item>
+        <item> Brócoli florete</item>
+        <item> Brocoli jicama chícharo champiñon</item>
+        <item> Brócoli y coliflor</item>
+        <item> Brócoli y Zanahoria</item>
+        <item> Brocoli,jicama,chicharo,pimiento,chapiñones</item>
+        <item> Butternut. Butternut</item>
+        <item> Calabacita</item>
+        <item>  Calabacita Italiana</item>
+        <item>  Calabaza</item>
+        <item>  Calabaza americana</item>
+        <item>Calabaza butternut</item>
+        <item>Calabaza Cabocha</item>
+        <item> Calabaza casco</item>
+        <item> Calabaza cebra</item>
+        <item> Calabaza chilacayota</item>
+        <item> Calabaza criolla</item>
+        <item> Calabaza de Castilla</item>
+        <item>  Calabaza elote zanahoria cabolla y cjicjaro</item>
+        <item>  Calabaza fresca</item>
+        <item>  Calabaza Halloween</item>
+        <item>Calabaza italiana</item>
+        <item>  Calabaza japonesa</item>
+        <item> Calabaza kabocha</item>
+        <item> Calabaza mini</item>
+        <item> Calabaza ornamental</item>
+        <item> Calabaza pay</item>
+        <item>Calabaza redonda</item>
+        <item> Calabaza regional</item>
+        <item>Calabaza spaguetti</item>
+        <item> Calabaza tiger</item>
+        <item> Calabaza verde zucchi</item>
+        <item>Camote amarillo</item>
+        <item> Camote</item>
+        <item> Camote morado</item>
+        <item> Caña de azucar</item>
+        <item> Carambola</item>
+        <item> Cebolla</item>
+        <item> Cebolla amarilla</item>
+        <item> Cebolla blanca</item>
+        <item>Cebolla cambray</item>
+        <item>Cebolla en malla</item>
+        <item>Cebolla morada</item>
+        <item>Cebolla Orgánica</item>
+        <item>Cebolla rabo</item>
+        <item>Cebollín</item>
+        <item>Cebollinas</item>
+        <item>Cebollitas</item>
+        <item> Cereza congelada sin hueso</item>
+        <item>Cerezas</item>
+        <item> Cesar Premium</item>
+        <item> Chayote fresco</item>
+        <item> Champiñon</item>
+        <item> Champiñón</item>
+        <item> Champiñon baby rebanado</item>
+        <item> Champiñon blanco</item>
+        <item> Champiñon botón</item>
+        <item>Champiñon combo</item>
+        <item> Champiñon cremini entero</item>
+        <item> Champiñon Cremini rebanado</item>
+        <item>  Champiñon entero</item>
+        <item> Champiñón jumbo</item>
+        <item> Champiñon mixto</item>
+        <item> Champiñón portabella entero</item>
+        <item> Champiñon portabellini</item>
+        <item> Champiñon rebanado</item>
+        <item> Champiñón rebanado</item>
+        <item> Chayote sin espinas</item>
+        <item>Chayote con espinas</item>
+        <item> Chicharo</item>
+        <item> Chicharo chino</item>
+        <item> Chícharo con zanahoria</item>
+        <item>  Chícharo gigante</item>
+        <item>  Chilaca</item>
+        <item>  Chilacayote</item>
+        <item>  Morron Amarillo</item>
+        <item>  Morron Naranja</item>
+        <item>  Morron Rojo</item>
+        <item>  Pimiento Arcoiris</item>
+        <item>  Chile poblano</item>
+        <item>Chicozapote</item>
+        <item> Chirimolla</item>
+        <item> Chispas de verduras</item>
+        <item>  Choconostle</item>
+        <item> Cilantro</item>
+        <item>  Cilantro orgánico</item>
+        <item>  Ciruela</item>
+        <item>  Ciruela  moscatel</item>
+        <item>  Ciruela criolla</item>
+        <item>  Ciruela huesuda</item>
+        <item>  Ciruela importada</item>
+        <item> Ciruela moscatel</item>
+        <item>Ciruela Negra</item>
+        <item> CIRUELA NUBIANA</item>
+        <item> Ciruela pasa</item>
+        <item>  Ciruela pasa sin hueso</item>
+        <item>  Ciruela roja</item>
+        <item>  Ciruelas</item>
+        <item>  Cisel</item>
+        <item>Coco</item>
+        <item>Xoconostle</item>
+        <item>Cóctel de frutas</item>
+        <item> Col</item>
+        <item>  Col blanca</item>
+        <item> Col de Bruselas</item>
+        <item>  Col morada</item>
+        <item>  Col rizada</item>
+        <item>  Col verde</item>
+        <item>  Cola de caballo</item>
+        <item>  Coliflor</item>
+        <item>  Coliflor blanca</item>
+        <item> Coliflor floretes</item>
+        <item> Coliflor,brocoli,zanahoria</item>
+        <item> Combinado de vegetales</item>
+        <item>  Combinado primavera</item>
+        <item>  Combo</item>
+        <item>  Corazones de apio</item>
+        <item>  Corazones de lechuga</item>
+        <item>  Corazones de lechuga orgánica</item>
+        <item>  Corazones mediterraneos</item>
+        <item>  Corazones rusticos</item>
+        <item> Cosecha de otoño</item>
+        <item> COSECHA FRESCA</item>
+        <item> Country mix</item>
+        <item>  Creamed spinach</item>
+        <item>   Cubos de piña</item>
+        <item>  Cuitlacoche</item>
+        <item>  Curube</item>
+        <item> Datil organico</item>
+        <item> Delicia mestiza</item>
+        <item>  Diente de ajo</item>
+        <item>  Durazno</item>
+        <item>  Durazno  de california</item>
+        <item> Durazno amarillo</item>
+        <item> Durazno chihuahua</item>
+        <item> Durazno importado</item>
+        <item> Durazno melocotón</item>
+        <item> Durazno nectarina</item>
+        <item>  Durazno Prisco</item>
+        <item> Durazno Rojo</item>
+        <item> Espinaca</item>
+        <item> Ejote</item>
+        <item>  Echalote</item>
+        <item> Elote</item>
+        <item>Ejote francés</item>
+        <item> Ejote verde</item>
+        <item> Elote con Rajas</item>
+        <item> Elote amarillo</item>
+        <item> Elote Blanco</item>
+        <item> Elote cocido</item>
+        <item> Elote ejote zanahoria</item>
+        <item> Elote dulce</item>
+        <item> Elote en grano</item>
+        <item> Elote entero</item>
+        <item> Elote entero 4 pzas la huerta</item>
+        <item> Elotes con rajas</item>
+        <item> Elote y chícharos</item>
+        <item> Ensalada antioxidante</item>
+        <item> Ensalada baby romaine</item>
+        <item>  Ensalada Beet essence</item>
+        <item> Ensalada brócoli y zanahoria</item>
+        <item>  Ensalada campestre</item>
+        <item> Ensalada César</item>
+        <item> Ensalada César premium</item>
+        <item> Ensalada cherry</item>
+        <item>Ensalada clásica</item>
+        <item>Ensalada classic romaine</item>
+        <item>Ensalada de espinaca y arugula</item>
+        <item> Ensalada de espinaca y spring mix</item>
+        <item> Ensalada de germinados</item>
+        <item>Ensalada de la casa</item>
+        <item> Ensalada de verduras</item>
+        <item> Ensalada delicatessen</item>
+        <item> Ensalada delight</item>
+        <item>Ensalada energética</item>
+        <item> Ensalada energética hidropónico</item>
+        <item>Ensalada Europea</item>
+        <item>Ensalada francesa</item>
+        <item> Ensalada francesa organica</item>
+        <item> Ensalada fresca mixta</item>
+        <item>Ensalada hidro COOL jitomate Cherry</item>
+        <item>Ensalada hidropónica dolce</item>
+        <item> Ensalada italiana</item>
+        <item>Ensalada italina orgánica</item>
+        <item> Ensalada mango</item>
+        <item> Ensalada mediterrsnea</item>
+        <item> Ensalada mexicana</item>
+        <item>Ensalada mixta</item>
+        <item> Ensalada mixta fresca</item>
+        <item> Ensalada organic</item>
+        <item> Ensalada oriental</item>
+        <item>Ensalada premium</item>
+        <item> Ensalada Primavera</item>
+        <item> Ensalada rach</item>
+        <item> Ensalada super food 5</item>
+        <item> Ensalada Toscana</item>
+        <item>Ensaladas verde</item>
+        <item> Ensalada Mixta Orgánica</item>
+        <item> Ensalada Primavera Orgánica</item>
+        <item> Epazote</item>
+        <item>  Espárrago</item>
+        <item>  Espárrago baby</item>
+        <item>  Espárrago blanco</item>
+        <item> Espárrago verde</item>
+        <item> Espárragos frescos</item>
+        <item>Espinaca arugula kale berro acelga</item>
+        <item> Espinaca organica</item>
+        <item>Espinaca tierna</item>
+        <item> Espinaca y Arugula</item>
+        <item> Espinaca y arugula baby</item>
+        <item>Espinaca,arigula y kale</item>
+        <item>Espinacas y Arugula</item>
+        <item>Estafiate</item>
+        <item> Estragón</item>
+        <item> Eucalipto</item>
+        <item> Fresa</item>
+        <item> Flor de calabaza</item>
+        <item> Flor de coliflor</item>
+        <item>Flor de Jamaica</item>
+        <item>  Florete de brócoli</item>
+        <item> Frambuesa</item>
+        <item>  Fresa con platano</item>
+        <item>  Fresa zarzamora fambruesa</item>
+        <item> Fresadilla</item>
+        <item>  Fresas jumbo</item>
+        <item> Fresas natural</item>
+        <item> Fresas orgánicas</item>
+        <item>Fresas rebanadas</item>
+        <item>Fresca mixta</item>
+        <item>  Vegetales Frecos</item>
+        <item> Fresh seasons</item>
+        <item> Freshly</item>
+        <item>Frijol de soya</item>
+        <item>Frijol para chop suey</item>
+        <item> Frijolillo para chop siry</item>
+        <item>frijolito</item>
+        <item>fruta de dragon</item>
+        <item>Fruta exótica</item>
+        <item>Frutos del huerto</item>
+        <item>Gajos de toronja</item>
+        <item>Gala</item>
+        <item>Ganadora</item>
+        <item>Garbanza fresca</item>
+        <item>Germen de soya</item>
+        <item>Gérmen de brócoli</item>
+        <item>Germen de alfalfa</item>
+        <item>Germen de alfalfa con Betabel</item>
+        <item>Germen de alfalfa con Brocoli</item>
+        <item>Germinado con brocoli</item>
+        <item>Germinado d alfalfa con amaranto</item>
+        <item>Germinado d alfalfa con rábano</item>
+        <item>Germinado d alfalfa. Con betabel</item>
+        <item>Germinado d cebolla</item>
+        <item>Germinado d girasol</item>
+        <item> Germinado de alfafa con cebolla</item>
+        <item> Germinado de alfalfa</item>
+        <item>Germinado de alfalfa con aderezo chamoy</item>
+        <item> germinado de alfalfa con aderezo mil islas</item>
+        <item> Germinado de alfalfa con amaranto</item>
+        <item>germinado de alfalfa con betabel</item>
+        <item>germinado de alfalfa con brocoli</item>
+        <item>Germinado de alfalfa con rábano</item>
+        <item>Germinado de brocoli</item>
+        <item>Germinado de brócoli con alfalfa</item>
+        <item>Germinado de soya</item>
+        <item>Germinado de trebol</item>
+        <item>Germinado de trigo</item>
+        <item>Germinado de trigo dulce</item>
+        <item>Germinado. D alfalfa con rabano</item>
+        <item>Gordolobo</item>
+        <item> Gourmet mix</item>
+        <item>Granada</item>
+        <item>Granada roja</item>
+        <item>Grenn Kiwi</item>
+        <item>  GUANABANA</item>
+        <item>  Guarnición de verduras</item>
+        <item> Guarnicion de verduras coloflir brócoli zanahoria</item>
+        <item> Guarnicion mixta</item>
+        <item> Guayaba</item>
+        <item> Haba</item>
+        <item> Habanero</item>
+        <item> Hierbabuena</item>
+        <item> Hierbas d olor manojo</item>
+        <item> Hierbas de olor</item>
+        <item> Hierbas finas</item>
+        <item>Higo</item>
+        <item> Higo lagunero</item>
+        <item>Hinojo</item>
+        <item>Hoja de aguacate</item>
+        <item> Hoja de laurel</item>
+        <item> Hoja de Naranjo</item>
+        <item> Hoja de plátano</item>
+        <item> Hoja Santa</item>
+        <item> Hojas d menta</item>
+        <item> Hojas d Stevia</item>
+        <item> Hojas de lechuga orejona</item>
+        <item>Hojas de naranjo</item>
+        <item> Hongo</item>
+        <item>Hongo baby</item>
+        <item>Hongo baby bell</item>
+        <item>Hongo entero</item>
+        <item>Hongo portabela</item>
+        <item>Hongo Portabella seleccionado</item>
+        <item>Hongo portabello</item>
+        <item>Hongo Portobello entero</item>
+        <item>Hongo seleccionado</item>
+        <item>Hongos</item>
+        <item>Huanzontle</item>
+        <item>Huitlacoche</item>
+        <item>Hungaro</item>
+        <item>Jalapeño</item>
+        <item>jengibre</item>
+        <item>Jicama</item>
+        <item>Jitomate</item>
+        <item>Jitomate baby tom</item>
+        <item>Jitomate Beef</item>
+        <item>Jitomate bola</item>
+        <item>Jitomate constellation</item>
+        <item>Jitomate huaje</item>
+        <item>Jitomate roma</item>
+        <item>Jitomate saladet</item>
+        <item>Jitomate tomate bola</item>
+        <item>Jitomate uva</item>
+        <item>Jitomate uva orgánica</item>
+        <item>JUGO VERDE</item>
+        <item>Jugo vite verde</item>
+        <item>Jumbo strawberries</item>
+        <item>Kale</item>
+        <item>Kale col rizada</item>
+        <item>Kale orgánico</item>
+        <item>Kiwi verde</item>
+        <item>Kiwi dorado</item>
+        <item>Kiwi duraznos fresa</item>
+        <item>Kiwi importado</item>
+        <item>Kiwi sungold</item>
+        <item> Laurel</item>
+        <item>Lechuga orejona</item>
+        <item>Lechuga</item>
+        <item>Lechuga  dulce</item>
+        <item>Lechuga  morada</item>
+        <item>Lechuga  sangría</item>
+        <item>Lechuga baby</item>
+        <item>Lechuga bola</item>
+        <item>Lechuga corazon</item>
+        <item>Lechuga envidias</item>
+        <item> escarola</item>
+        <item> Lechuga francesa</item>
+        <item>LECHUGA FRESCA</item>
+        <item>Lechuga gourmet</item>
+        <item>Lechuga hidroponica</item>
+        <item> Lechuga Ibarra</item>
+        <item>Lechuga iceberg</item>
+        <item> Lechuga italiana</item>
+        <item>Lechuga italiana orgánica</item>
+        <item>Lechuga mini</item>
+        <item> Lechuga mini francesa</item>
+        <item>Lechuga mini Romana</item>
+        <item>Lechuga mixta</item>
+        <item>Lechuga Morada</item>
+        <item>Lechuga nacional</item>
+        <item>Lechuga orejona corazones</item>
+        <item> Lechuga Roja</item>
+        <item> Lechuga romana</item>
+        <item>Lechuga sangria</item>
+        <item>Lechuga sucrine</item>
+        <item>Lechuga trio</item>
+        <item>Lechuga y arugula</item>
+        <item>Lechuga y espinaca</item>
+        <item>Lechugas baby</item>
+        <item>Lechugas frescas</item>
+        <item>Lima</item>
+        <item> Lima de chichi</item>
+        <item>Limón</item>
+        <item> Limon  Colima</item>
+        <item>Limon Organico</item>
+        <item>Limón agrio</item>
+        <item> Limon Agrio en Maya</item>
+        <item>Limón agrio mexicano</item>
+        <item>Limon agrio sin semilla</item>
+        <item>Limon amarillo</item>
+        <item> Limón brand</item>
+        <item>Limon colima</item>
+        <item>Limón con semilla</item>
+        <item>Limón Eureka</item>
+        <item>Limon mexicano</item>
+        <item>Limon Meyer</item>
+        <item>Limón persa</item>
+        <item>Limon persa  sin semilla</item>
+        <item> Limon persa orgánico</item>
+        <item>Limon real</item>
+        <item> Limón sin semilla</item>
+        <item> Maiz</item>
+        <item>Malanaga</item>
+        <item>Mamey</item>
+        <item>Mandarina</item>
+        <item>Mango</item>
+        <item> MANGO</item>
+        <item>Mango ataulfo</item>
+        <item>Mango chunks</item>
+        <item> Mango congelado</item>
+        <item>Mango cortado</item>
+        <item>Mango en cubos</item>
+        <item> Mango haden</item>
+        <item> Mango kent</item>
+        <item> Mango paraíso</item>
+        <item>Mango Select congelado</item>
+        <item>Manojo de ajeno</item>
+        <item>Manojo de espinaca</item>
+        <item>Manojo de romero</item>
+        <item>Manojo de verdolagas</item>
+        <item>Manojo hierva de holor</item>
+        <item>Manojo laurel</item>
+        <item> Manojo tomillo</item>
+        <item> MANZANA</item>
+        <item>Manzana  fuji</item>
+        <item> Manzana  golden chihuahua</item>
+        <item>Manzana  royal gala</item>
+        <item>Manzana ambrosía</item>
+        <item>Manzana bgala</item>
+        <item> Manzana Blanca</item>
+        <item>Manzana Braedurn</item>
+        <item>Manzana chihuahua</item>
+        <item>Manzana Chile</item>
+        <item> Manzana congelada</item>
+        <item> Manzana cripps pink</item>
+        <item> Manzana D Anjou</item>
+        <item> Manzana en bolsa</item>
+        <item> Manzana en gajos</item>
+        <item> Manzana escolar</item>
+        <item> Manzana Evans</item>
+        <item> Manzana fuji</item>
+        <item> Manzana gala</item>
+        <item> Manzana gala en bolsa</item>
+        <item>Manzana galaorganica</item>
+        <item>Manzana Golden</item>
+        <item> Manzana golden bolsa</item>
+        <item> Manzana Golden chica</item>
+        <item> Manzana Golden Chihuahua</item>
+        <item> Manzana Golden delicious</item>
+        <item>Manzana Golden en bolsa</item>
+        <item> Manzana Golden orgánica</item>
+        <item> Manzana granny</item>
+        <item> Manzana granny amith</item>
+        <item> Manzana jazx</item>
+        <item> Manzana mix</item>
+        <item>  Manzana organica</item>
+        <item>Manzana Perón Golden</item>
+        <item> Manzana pink bolsa</item>
+        <item> Manzana Pink lady</item>
+        <item>Manzana piñata</item>
+        <item>Manzana red</item>
+        <item> Manzana red chihuahua</item>
+        <item> Manzana red delicious</item>
+        <item> Manzana red en bolsa</item>
+        <item> Manzana roja</item>
+        <item> Manzana roja americana</item>
+        <item> Manzana roja chihuahua</item>
+        <item> Manzana Roja Mediana</item>
+        <item> Manzana Roja Regional</item>
+        <item> Manzana </item>
+        <item> Manzana Royal Gala</item>
+        <item> Manzana Royal gala bolsa</item>
+        <item> Manzana royal global</item>
+        <item> Manzana Sage</item>
+        <item> Manzana Saltillo</item>
+        <item> Manzana starking</item>
+        <item> MANZANA VERDE</item>
+        <item> Manzana verde granny smit</item>
+        <item> Manzanilla</item>
+        <item> Maracuya</item>
+        <item> Mejorana</item>
+        <item> Mejorana con laurel</item>
+        <item> Melón</item>
+        <item> Melon amarillo</item>
+        <item> Melon blanco</item>
+        <item> Melon chino</item>
+        <item> Melón chino</item>
+        <item> Melón Golden</item>
+        <item> Melon hami</item>
+        <item>Melon miel</item>
+        <item>Melon Orange Rush</item>
+        <item>Melón Valencia</item>
+        <item>Melón valenciano</item>
+        <item>Menta</item>
+        <item>Menta manojo</item>
+        <item>Mezcal fibra</item>
+        <item>Mezcal Hawái</item>
+        <item>Mezcal invierno</item>
+        <item>Mezcla 3 vegetales</item>
+        <item>Mezcla bajio</item>
+        <item>Mezcla BBQ</item>
+        <item>Mezcla brocoli zanahoria coliflor</item>
+        <item>Mezcla California</item>
+        <item>Mezcla campesina</item>
+        <item>Mezcla caribeña</item>
+        <item>Mezcla cortadillo</item>
+        <item>Mezcla d moras</item>
+        <item>Mezcla d vegetales</item>
+        <item>Mezcla de coliflor brocoli zanahoria</item>
+        <item>Mezcla de fajitas</item>
+        <item>Mezcla de fibra</item>
+        <item>Mezcla de frutas</item>
+        <item>Mezcla de hojas verdes</item>
+        <item>Mezcla de moras</item>
+        <item>Mezcla de moras</item>
+        <item>Mezcla de quinoa y vegetales</item>
+        <item>Mezcla de vegetales</item>
+        <item>Mezcla de zarzamora frambuesa pina</item>
+        <item>Mezcla de otoño</item>
+        <item>Mezcla energética</item>
+        <item>Mezcla delicia mestiza</item>
+        <item>Mezcla fajitas</item>
+        <item>Mezcla fibra</item>
+        <item>Mezcla guarnición</item>
+        <item>Mezcla invierno</item>
+        <item>Mezcla italiana</item>
+        <item>Mezcla Juliana</item>
+        <item>Mezcla mestiza</item>
+        <item>Mezcla mexicana</item>
+        <item>Mezcla mix Hawái</item>
+        <item>Mezcla oriental</item>
+        <item>Mezcla otoño</item>
+        <item>Mezcla primavera</item>
+        <item>Mezcla se hojas verdes</item>
+        <item>Mezcla se fajitas</item>
+        <item>Mezcla stir fry</item>
+        <item>Mezcla tropical</item>
+        <item> Mezcla verde</item>
+        <item>Mini Chile morrón</item>
+        <item>Mini Chile morrón orgánico</item>
+        <item>Mini flakes</item>
+        <item>Mini francesa</item>
+        <item>Mini pimiento</item>
+        <item>Mini sandía</item>
+        <item>Mix berries</item>
+        <item>Mix de coliflor</item>
+        <item>Mix de morras y berrys</item>
+        <item>Mix de vegetales brócoli coliflor y zanahoria</item>
+        <item>Mix exótica</item>
+        <item>Mixto</item>
+        <item>Mora azul</item>
+        <item>Moras</item>
+        <item>Moras azules</item>
+        <item>Morrón verde</item>
+        <item>Moztaza</item>
+        <item>Nabo</item>
+        <item>Napa</item>
+        <item>Naranja</item>
+        <item>Naranja  valència</item>
+        <item>Naranja Arpilla</item>
+        <item>Naranja d jugo</item>
+        <item>naranja en malla</item>
+        <item>Naranja granel</item>
+        <item>Naranja importada</item>
+        <item>Naranja japonesa</item>
+        <item>Naranja para jugo</item>
+        <item>Naranja sin semilla</item>
+        <item> Valencia</item>
+        <item>Nectarina</item>
+        <item>Nectarina  importada</item>
+        <item> Nectarina blanca</item>
+        <item> Nectarina Importada</item>
+        <item> Noodles</item>
+        <item> Noodles betabel</item>
+        <item> Noodles de calabaza</item>
+        <item> Noodles de vegtales</item>
+        <item> Noodles zucchini</item>
+        <item> Nopachilitos</item>
+        <item>Nopal</item>
+        <item>Nopal cambray</item>
+        <item> Nopal en cubos</item>
+        <item>Nopal entero</item>
+        <item>Nopal orgánico</item>
+        <item>Nopal picado</item>
+        <item>Nopales</item>
+        <item>Nopales cambray</item>
+        <item>Nopales en escabeche</item>
+        <item>nopalitos</item>
+        <item>Oregano verde</item>
+        <item>Organico Apio corazón</item>
+        <item>Palitos de apio</item>
+        <item>Palitos de apio organico</item>
+        <item>Papá alfa chica</item>
+        <item>Papa amarilla chica</item>
+        <item>Papá americana</item>
+        <item>Papa blanca</item>
+        <item>Papa Blanca</item>
+        <item>Papa blanca sin lavar</item>
+        <item>Papa cambray</item>
+        <item>Papa cambray blanca</item>
+        <item>Papa en malla</item>
+        <item>Papa galeana</item>
+        <item> Papa gallo</item>
+        <item> Papá malla</item>
+        <item> Papa miniatura</item>
+        <item> Papa morena</item>
+        <item> Papa russet</item>
+        <item> Papalo</item>
+        <item> Papalo</item>
+        <item>Papas Mallas</item>
+        <item>Papaya</item>
+        <item>Papaya en cubos</item>
+        <item>Papaya en trozos</item>
+        <item> Papaya maradol</item>
+        <item> Paquime</item>
+        <item> Pepino</item>
+        <item> Pepino  organico</item>
+        <item> Pepino  verde</item>
+        <item> Pepino baby</item>
+        <item> Pepino criollo</item>
+        <item> Pepino especial</item>
+        <item> Pepino europeo</item>
+        <item> Pepino fresco</item>
+        <item> Pepino japones</item>
+        <item> Pepino orgánico</item>
+        <item> Pepino persa</item>
+        <item> Pepino persa organico</item>
+        <item> Pepino verde</item>
+        <item> Pepino verde europeo</item>
+        <item> Pera</item>
+        <item> Pera agua</item>
+        <item> Pera amarilla</item>
+        <item> Pera angel</item>
+        <item>Pera anyo</item>
+        <item> Pera asiática</item>
+        <item> Pera Bartlett</item>
+        <item> Pera bosco</item>
+        <item> Pera botts</item>
+        <item> Pera D Anjou</item>
+        <item> Pera mantequilla</item>
+        <item> Pera Packma s</item>
+        <item> Pera red</item>
+        <item> Pera roja</item>
+        <item> Pera starkrimson</item>
+        <item> Pera taylors gold</item>
+        <item> Perejil</item>
+        <item> Perejil  liso</item>
+        <item> Perejil chino</item>
+        <item>Peron</item>
+        <item>PERON BOLSA</item>
+        <item>Peron chihuahua</item>
+        <item>PERON DULCE</item>
+        <item>PERON DULCE BOLSA</item>
+        <item>Perón golden</item>
+        <item>Perón Golden bolsa</item>
+        <item>Perón Golden chihuahua</item>
+        <item>Persimonio</item>
+        <item>Petalos de setas</item>
+        <item>Pimiento</item>
+        <item>Pimiento 2 pack</item>
+        <item>pimiento 2 pack</item>
+        <item>Pimiento amarillo</item>
+        <item> Pimiento naranja</item>
+        <item> pimiento rojo</item>
+        <item> pimiento verde</item>
+        <item> Pimiento premium brand</item>
+        <item> Pimiento tricolor</item>
+        <item>  Pimiento verde y rojo</item>
+        <item> Pimientos</item>
+        <item>pimiento semaforo</item>
+        <item> Pina dulce</item>
+        <item> Piña</item>
+        <item> Piña cayena</item>
+        <item> Piña chunks</item>
+        <item>Piña congelada</item>
+        <item> Piña en cubos</item>
+        <item> Piña en trozos</item>
+        <item> Piña esmeralda</item>
+        <item>Piña Gota miel</item>
+        <item> Piña Miel</item>
+        <item> Piña oro</item>
+        <item> Pitaya</item>
+        <item>Plátano</item>
+        <item>Plátano </item>
+        <item>  Plátano colima</item>
+        <item> Platano dominico</item>
+        <item> Platano macho</item>
+        <item> Plátano manzano</item>
+        <item> Platano morado</item>
+        <item> Platano Orgánico</item>
+        <item> Platano portalimon</item>
+        <item> Platano Tabasco</item>
+        <item> Plátano </item>
+        <item>Plátanos</item>
+        <item>Poblano</item>
+        <item> Poro</item>
+        <item> Poro en mazo</item>
+        <item> Portabella</item>
+        <item> Portabella </item>
+        <item> Portabella enteró</item>
+        <item> Portabella entero champiñones</item>
+        <item> Portabella seleccionado</item>
+        <item> Portabellini</item>
+        <item> Portabellini rebanado</item>
+        <item> Primavera</item>
+        <item> Rajas de chile poblano</item>
+        <item> Provenza</item>
+        <item>  Pulpa de acaí</item>
+        <item>  Pulpa de acaí orgánico</item>
+        <item>  Puña</item>
+        <item>  Quelite</item>
+        <item>  Rabanitos en bolsa</item>
+        <item>  Rábanitos manojo</item>
+        <item>Rábanitos René MACUZET</item>
+        <item>  rábano</item>
+        <item> Rabano cambray</item>
+        <item>Rábano grande</item>
+        <item>Rábano largo</item>
+        <item> Raiz de azafran</item>
+        <item> rajas poblanas</item>
+        <item>  Rajas poblanas asadas y peladas</item>
+        <item>  Repollo</item>
+        <item>  Repollo blanco</item>
+        <item>  Repollo morado</item>
+        <item> Roja</item>
+        <item>Roja Anjou</item>
+        <item>Romana</item>
+        <item> Romeritos</item>
+        <item>Romero</item>
+        <item> Romero macho</item>
+        <item> Romero medicina</item>
+        <item> Ruda</item>
+        <item> Sabila</item>
+        <item>  Salvia</item>
+        <item>  SANDIA</item>
+        <item>  Sandía amarilla</item>
+        <item>Sandia baby</item>
+        <item>Sandia blanca rayada</item>
+        <item> Sandia Charleston</item>
+        <item> Sandía con semilla</item>
+        <item>  sandia individual</item>
+        <item> Sandia personal</item>
+        <item>  Sandia rayada</item>
+        <item>  Sandia roja</item>
+        <item> Sandía sin semilla</item>
+        <item> Sandía yellow</item>
+        <item> Setas</item>
+        <item> Setas en racimo</item>
+        <item> Sopa de verduras</item>
+        <item> Sopa poblana</item>
+        <item> Soya</item>
+        <item> Soya germinada</item>
+        <item> Tangerina</item>
+        <item> Te limon</item>
+        <item>  Tomatillo limpio</item>
+        <item>  Tomate</item>
+        <item>  Tomate  bola orgánico  mr  lucky</item>
+        <item>  Tómate  gordo</item>
+        <item>  Tómate  grape</item>
+        <item>  Tómate  saladette</item>
+        <item>  Tomate baby</item>
+        <item>  Tómate bola</item>
+        <item>  Tomate bola en racimo</item>
+        <item>  Tomate campiri</item>
+        <item>  Tómate cherry</item>
+        <item>  Tomate cherubs</item>
+        <item>  Tomate con cáscara</item>
+        <item>  Tomate constellation</item>
+        <item>  Tomate for every</item>
+        <item>  Tomate glorys</item>
+        <item>  Tomate gordo</item>
+        <item>  Tómate hidropónico</item>
+        <item>  Tómate huaje</item>
+        <item>  Tomate mexicano</item>
+        <item>  Tomate NATURESWEETS CONSTELLATION</item>
+        <item>  Tómate saladet</item>
+        <item>  Tomate sin cáscara</item>
+        <item>  Tomate uva</item>
+        <item>  Tomate verde</item>
+        <item>  Tomate verde sin cáscara</item>
+        <item>  Tomates</item>
+        <item>  Tomates bolas</item>
+        <item>  Tomates cherry</item>
+        <item>  Tomatillo</item>
+        <item>  Tomatillo milpero</item>
+        <item>  Tomatillo verde</item>
+        <item>  Tomatillo verde con cáscara</item>
+        <item>  Tomatillo verde sin cáscara</item>
+        <item>  Tomato Glorys</item>
+        <item>  Tomillo</item>
+        <item>  Topping de frutas</item>
+        <item>  Toroja orgánica</item>
+        <item>  Toronja</item>
+        <item>  Toronja Agria</item>
+        <item>  Toronja mexicana</item>
+        <item>  Toronja orgánica</item>
+        <item>  Toronja roja</item>
+        <item>  Toronja sangria</item>
+        <item>  Toronjil</item>
+        <item>  Toscana</item>
+        <item>  Trio</item>
+        <item>  Tropi berries</item>
+        <item>Tropi berries mango kiwi fresa zarzamora</item>
+        <item> Tropical de frutas</item>
+        <item> Tropical mix</item>
+        <item> Tuna</item>
+        <item> Tuna blanca</item>
+        <item> Tuna verde</item>
+        <item> Uva</item>
+        <item> Uva Blanca</item>
+        <item> Uva blanca sin semilla</item>
+        <item>UVA MORADA</item>
+        <item>Uva negra</item>
+        <item>Uva negra sin semilla</item>
+        <item>Uva red globo</item>
+        <item>Uva roja</item>
+        <item>Uva roja globo</item>
+        <item> Uva roja sin semilla</item>
+        <item> Uva s/semilla</item>
+        <item> Uva thompson</item>
+        <item> Uva tricolor</item>
+        <item> Vaina para pájaros</item>
+        <item> Vegetales mix</item>
+        <item> Vegetales sazonados</item>
+        <item> Vegetales selectos</item>
+        <item> Veggie snacks</item>
+        <item> Manzana Verde</item>
+        <item> Verdolaga</item>
+        <item>Yerbabuena</item>
+        <item>Yerbas de olor</item>
+        <item>Zanahoria</item>
+        <item>Zanahoria baby</item>
+        <item>Zanahoria Bolt house</item>
+        <item>Zanahoria cambray</item>
+        <item>Zanahoria con chícharo</item>
+        <item>Zanahoria elote ejote</item>
+        <item>Zanahoria rallada</item>
+        <item>Zanahoria y chícharo</item>
+        <item>Zanahoria,ejote,elote</item>
+        <item>Zanahoria,elote,chicharo</item>
+        <item>Zapote</item>
+        <item> Zapote Negro</item>
+        <item> Zarzamora</item>
+        <item>Zarzamora orgánica</item>
+
+
+    </string-array>
+    <string name="title_activity_rutas_promotor">Map</string>
+    <string name="title_activity_promotor_rutas">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_holos_stores">Map</string>
+
+
+</resources>

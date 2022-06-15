@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margin"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_small"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_user"
+            android:src="@drawable/baseline_person_black_36"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/btn_insurgentes"
+            android:text="@string/promotores"
+            android:textSize="@dimen/text"
+            android:padding="@dimen/margin_small"
+            android:background="@drawable/btn_main"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/baseline_meeting_room_black_36"
+            android:id="@+id/btn_exit"
+            android:layout_height="30dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_routes"
+            android:text="@string/rutas"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:shadowColor="@color/black"
+            android:padding="@dimen/margin_small"
+            android:layout_gravity="center"
+            android:gravity="right|center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:id="@+id/btn_home"
+            android:layout_width="71dp"
+            android:layout_height="68dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:src="@drawable/montepromo" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/guardados"
+            android:id="@+id/btn_listaguardados"
+            android:shadowColor="@color/black"
+            android:background="@color/white"
+            android:padding="@dimen/margin_small"
+            android:layout_gravity="center"
+            android:gravity="left|center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
